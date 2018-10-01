@@ -32,6 +32,7 @@ public class FacebookController  extends HttpServlet{
 		out.println("<h2>Application Main Menu</h2>");
 		out.println("<div>Welcome "+fbProfileData.get("name"));
 		out.println("<div>Your Email: "+fbProfileData.get("id"));
+		System.out.println("test");
 		
 	}
 	
